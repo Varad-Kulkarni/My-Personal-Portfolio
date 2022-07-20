@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+.about{
+    background-color: rgb(87, 87, 87);
+}
+
+h4{
+    font-weight: bolder;
+    border-style: inset;
+    border-color: darkseagreen;
+    color: aquamarine;
+    margin: 0;
+    background-color: rgb(65, 65, 65);
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.intro{
+    margin: 1px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.educational-details{
+    margin: 1px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.experience{
+    margin: 2px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.achievements{
+    margin: 2px;
+    margin-bottom: 28px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.achievements a {
+    color:chartreuse;
+    text-decoration: none;
+}
+.achievements a:hover {
+    color: chocolate;
+}
+
+.fav-subs{
+    margin: 2px;
+    margin-bottom: 28px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}
+
+.skills{
+    margin: 2px;
+    padding: 4px;
+    background-color: rgb(87, 87, 87);
+    color: whitesmoke;
+    border-style: groove;
+    border-color: darkseagreen;
+    font-family: 'Varela Round', 'sans-serif';
+}

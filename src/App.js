@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router } from 'react-router-dom'
 
-import Navbar from './components/Navbar/Navbar'
+// import Navigation from './components/Navigation/Navigation'
+import Navigatebar from './components/Navigatebar/Navigatebar';
 import AllRoutes from './AllRoutes'
 
 function App() {
@@ -24,7 +25,7 @@ function App() {
       </header> */}
 
       <Router>
-        <Navbar />
+        <Navigatebar />
         <AllRoutes />
       </Router>
 
