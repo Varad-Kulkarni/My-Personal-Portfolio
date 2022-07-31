@@ -1,4 +1,5 @@
 import React from 'react'
+import { useEffect } from 'react';
 
 import "./Projects.css"
 
@@ -8,11 +9,16 @@ import employee1 from "../../assets/Emp_Add_emp_success.png"
 import notepad2 from "../../assets/Notepad-3.png"
 import calci from "../../assets/Calculator_Swing.png"
 import todos from "../../assets/todos_list.png"
+import ScrollButton from '../ScrollButton/ScrollButton'
 
 const Projects = () => {
-
   return (
     <div className="projects">
+      <ScrollButton/>
+
+      <button type="button" class="btn btn-danger btn-floating btn-lg" id="btn-back-to-top">
+        <i class="fas fa-arrow-up"></i>
+      </button>
 
       <div className="e-commerce-webapp">
         <h3>I. E-COMMERCE WEBSITE</h3>

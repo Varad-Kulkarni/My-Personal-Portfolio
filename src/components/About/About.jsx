@@ -1,10 +1,13 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 
 import './About.css'
+import ScrollButton from '../ScrollButton/ScrollButton'
 
 const About = () => {
   return (
     <div className="about">
+    <ScrollButton/>
+
       <div className="intro">
         <h4 className="itro-h">INTRODUCTION</h4>
         My name is Varad Kedarrao Kulkarni. An independent and self-motivated graduate with proven and tested Multitasking, problem solving and communucation skills. I am currently in last year of engineering. I am pursuing my B.Tech. degree from Government College of Engineering, Aurangabad. I love coding and developing new applications.
@@ -56,6 +59,7 @@ const About = () => {
       </div>
 
       <div className="certification"></div>
+
     </div>
   )
 }
