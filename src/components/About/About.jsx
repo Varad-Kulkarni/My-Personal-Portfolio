@@ -6,7 +6,7 @@ import ScrollButton from '../ScrollButton/ScrollButton'
 const About = () => {
   return (
     <div className="about">
-    <ScrollButton/>
+      <ScrollButton />
 
       <div className="intro">
         <h4 className="itro-h">INTRODUCTION</h4>
