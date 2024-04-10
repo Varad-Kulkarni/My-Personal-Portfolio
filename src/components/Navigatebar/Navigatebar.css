@@ -8,12 +8,19 @@
 }
 
 .navlink {
-    margin-left: 50px;
     margin-right: 50px;
-    padding-left: 20px;
+    padding-left: 70px;
     padding-right: 20px;
 }
 
 .navlink:hover {
     background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(138,43,226,1) 100%);
+}
+
+img {
+    box-shadow: none;
+}
+
+img:hover {
+    box-shadow: none;
 }
