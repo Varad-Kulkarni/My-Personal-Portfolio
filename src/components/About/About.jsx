@@ -1,65 +1,74 @@
-import React, { useEffect, useState } from 'react'
-
-import './About.css'
-import ScrollButton from '../ScrollButton/ScrollButton'
+import React from 'react'
 
 const About = () => {
   return (
-    <div className="about">
-      <ScrollButton />
-
-      <div className="intro">
-        <h4 className="itro-h">INTRODUCTION</h4>
-        My name is Varad Kedarrao Kulkarni. An independent and self-motivated graduate with proven and tested Multitasking, problem solving and communucation skills. I am currently in last year of engineering. I am pursuing my B.Tech. degree from Government College of Engineering, Aurangabad. I love coding and developing new applications.
-      </div>
-
-      <br />
-
-      <div className="educational-details">
-        <h4 className="edu-h">EDUCATIONAL DETAILS</h4>
-        <li>School name :- Pioneers Secondary School, Aurangabad</li>
-        <li>10th marks :- 90.8% (From SSC)</li>
-        <li>Junior college name :- Kulbhushan Junior College, Aurangabad</li>
-        <li>12th marks :- 70.3% (From HSC)</li>
-        <li>College name :- Government College of Engineering, Aurangabad</li>
-        <li>Current CGPA :- 7.9</li>
-      </div>
-
-      <br />
-
+    <div>
       <div className="experience">
-        <h4 className="exp-h">WORK EXPERIENCE</h4>
-        <li>I have done internship in Java development. In this internship I typically test the Java swing application and created some classes to interact with the database. During my internship I also create testing report and some bugs in the application. Certificate, stipent and lots of knowledge are the perks of my internship.</li>
-        <li>In have training in ReactJS to create a full stack web application also. In this training I study the fundamentals of HTML, CSS, Javascript, ReactJS. Also I do Stackoverflow clone project in this training also. </li>
-        <li>I am leader of mini project group in our college during third year. In this we create a simple web app for e-commerce in which I handle the backend word using java servlet and AWS RDS mysql database. </li>
+        <h1>Experience</h1>
+        <ul>
+          <li><h3>Software Engineer at Siemens</h3>
+            <ul>
+              <li>Completed 3+ features end-to-end for inplace project.</li>
+              <li>Given release presentations about new features to customers with completion of all pre-release activities</li>
+              <li>Given demo presentations about tasks/features to architects/managers.</li>
+              <li>Documented all new changes for reference of customers.</li>
+              <li>Completed some tasks with optimal algorithms/logic approved by architect</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul>
+          <li><h3>Software Engineer at Pratiti Technologies</h3>
+            <ul>
+              <li>Working at client-side (Siemens) on project.</li>
+              <li>Done training on C#, C++ and web development when I have graduate engineer trainee here</li>
+              <li>Completed daily assignments given in the training</li>
+              <li>Completed project (library management system) as given after training and implement suggestions after review of project.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul>
+          <li><h3>Intern React developer at Shardings</h3>
+            <ul>
+              <li>Created react native currency converter application.</li>
+              <li>Attending daily meetings.</li>
+              <li>Using google cloud platform pull application repository and push changes.</li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul>
+          <li><h3>Intern Java developer at VDerive</h3>
+            <ul>
+              <li>Manually test the application and fixed the bugs in application.</li>
+              <li>Created UML diagram of application.</li>
+              <li>Created testing document for application</li>
+              <li>Created a java class to handle input/output in CSV file using given methods.</li>
+            </ul>
+          </li>
+        </ul>
       </div>
 
-      <br />
+      <div className="education">
+        <h1>Education</h1>
+        <ul>
+          <li>B. Tech in computer science and engineering (2019 – 2023) Government college of engineering, Aurangabad (CGPA = 8.1)</li>
+          <li>High school education in science (2017 – 2019) Kulbhushan Junior College, Aurangabad.(12th percentage = 70.3%) (MHT-CET percentile = 96.96%)</li>
+          <li>School education in Pioneers secondary school with 10th percentage of 90.8%.</li>
+        </ul>
+      </div>
 
       <div className="achievements">
-        <h4 className="ach-h">ACHIEVEMENTS AND FAVOURITE ACTIVITIES</h4>
-        I like to create logics, solve problems. That is why I like to do backent programming. My favourite activities include learning new things. From this I like to learn topcs related to the mental and physical limits of the man or some inspiring stories of great persons. As a art I like to draw paintings.
-        <p>I qualified GATE exam in first attempt in my third year. I have 3 stars in <a target="_blank" href="https://www.codechef.com/users/triple_123">codechef</a> and 5 stars in <a target="_blank" href="https://www.hackerrank.com/Varad_Kulkarni">hackerrank</a> in JAVA and 4 stars in MYSQL.</p>
+        <h1>Achievements</h1>
+        <ul>
+          <li>Solved 29+ contests on codechef and have reached 3 stars on codechef. (codechef profile)</li>
+          <li>Had 1600+ contest rating on leetcode. (leetcode profile)</li>
+          <li>Handled leader works as mini project and main project group leader</li>
+          <li>Have 5 stars in JAVA and 4 stars in MYSQL in hackerrank. (hackerrank profile)</li>
+          <li>I have qualified GATE exam in first attempt in 3rd year</li>
+        </ul>
       </div>
-
-      <div className="fav-subs">
-        <h4>FAVOURITE SUBJECTS</h4>
-        <li>Object Oriented Programming</li>
-        <li>Data Structures</li>
-        <li>Database Management System</li>
-        <li>Operrating System</li>
-      </div>
-
-      <div className="skills">
-        <h4>SKILLS</h4>
-        <li>JAVA</li>
-        <li>Problem Solving</li>
-        <li>Data Structures</li>
-        <li>Mathematics</li>
-      </div>
-
-      <div className="certification"></div>
-
     </div>
   )
 }
