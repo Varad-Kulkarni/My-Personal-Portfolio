@@ -39,3 +39,7 @@ img:hover {
 
 @media (max-width: 1200px) {
 }
+
+.home-text {
+    text-shadow: 2px 2px 5px blueviolet;
+}

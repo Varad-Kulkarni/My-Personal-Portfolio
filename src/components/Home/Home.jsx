@@ -8,9 +8,8 @@ const Home = () => {
   return (
     <div className="home">
       <div className="home-container">
-        <p>HI, MY NAME IS VARAD KULKARNI.....</p>
-        <p>WELCOME TO MY PORTFOLIO!</p>
-        <p><img src={settings_logo_animated} alt="" /></p>
+        <p className="home-text">HI, MY NAME IS VARAD KULKARNI.....</p>
+        <p className="home-text">WELCOME TO MY PORTFOLIO!</p>
       </div>
 
       <img src={coding_img} alt="" className="img-container"/>
