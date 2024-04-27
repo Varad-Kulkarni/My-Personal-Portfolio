@@ -1,65 +1,94 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 import './About.css'
-import ScrollButton from '../ScrollButton/ScrollButton'
+import experienceIcon from '../../assets/icons/Experience_icon.gif'
+import educationIcon from '../../assets/icons/Education_icon.png'
+import achievementsIcon from '../../assets/icons/Achievements_icon.png'
 
 const About = () => {
   return (
-    <div className="about">
-      <ScrollButton />
-
-      <div className="intro">
-        <h4 className="itro-h">INTRODUCTION</h4>
-        My name is Varad Kedarrao Kulkarni. An independent and self-motivated graduate with proven and tested Multitasking, problem solving and communucation skills. I am currently in last year of engineering. I am pursuing my B.Tech. degree from Government College of Engineering, Aurangabad. I love coding and developing new applications.
-      </div>
-
-      <br />
-
-      <div className="educational-details">
-        <h4 className="edu-h">EDUCATIONAL DETAILS</h4>
-        <li>School name :- Pioneers Secondary School, Aurangabad</li>
-        <li>10th marks :- 90.8% (From SSC)</li>
-        <li>Junior college name :- Kulbhushan Junior College, Aurangabad</li>
-        <li>12th marks :- 70.3% (From HSC)</li>
-        <li>College name :- Government College of Engineering, Aurangabad</li>
-        <li>Current CGPA :- 7.9</li>
-      </div>
-
-      <br />
-
+    <div>
       <div className="experience">
-        <h4 className="exp-h">WORK EXPERIENCE</h4>
-        <li>I have done internship in Java development. In this internship I typically test the Java swing application and created some classes to interact with the database. During my internship I also create testing report and some bugs in the application. Certificate, stipent and lots of knowledge are the perks of my internship.</li>
-        <li>In have training in ReactJS to create a full stack web application also. In this training I study the fundamentals of HTML, CSS, Javascript, ReactJS. Also I do Stackoverflow clone project in this training also. </li>
-        <li>I am leader of mini project group in our college during third year. In this we create a simple web app for e-commerce in which I handle the backend word using java servlet and AWS RDS mysql database. </li>
+        <h1 className="h1-heading">Experience <img src={experienceIcon} /></h1>
+        <div className='left-line'>
+          <ul>
+            <li><h3>Software Engineer at <span className='siemens-name'>Siemens</span> </h3>
+                <h6>(07/2023 – current)</h6>
+              <ul>
+                <li><b>Completed 3+ features</b> end-to-end for inplace project.</li>
+                <li><b>Given release presentations</b> about new features to customers with completion of all pre-release activities</li>
+                <li>Given demo presentations about tasks/features to architects/managers.</li>
+                <li>Documented all new changes for reference of customers.</li>
+                <li>Completed some tasks with <b>optimal algorithms/logic</b> approved by architect</li>
+                <li>For our project we use languages like <b>python</b> and <b>ansible</b></li>
+                <li>We use platforms like <b>AWS, harshicorp vault, jfrog</b> and <b>ansible-tower</b></li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>Software Engineer at <span className='pratiti-name'>Pratiti Technologies</span></h3>
+            <h6>(01/2023 – current)</h6>
+              <ul>
+                <li><b>Working at client-side (Siemens)</b> on project.</li>
+                <li>Done training on <b>C#, C++</b> and <b>web development</b> when I have graduate engineer trainee here</li>
+                <li>Completed daily assignments given in the training</li>
+                <li><b>Completed project (library management system)</b> as given after training and implement suggestions after review of project.</li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>Intern React developer at <span className='shardings-name'>Shardings</span></h3>
+            <h6>(10/2022 – 11/2022)</h6>
+              <ul>
+                <li>Created <b>react native</b> currency converter application.</li>
+                <li>Attending daily meetings.</li>
+                <li>Here we use <b>google cloud platform</b> for our application</li>
+              </ul>
+            </li>
+          </ul>
+
+          <ul>
+            <li><h3>Intern Java developer at <span className='vderive-name'>VDerive</span></h3>
+            <h6>(03/2022 – 03/2022)</h6>
+              <ul>
+                <li>Manually <b>test the application</b> and fixed the bugs in application.</li>
+                <li>Created <b>UML diagram</b> of application.</li>
+                <li>Created <b>testing document</b> for application</li>
+                <li><b>Created a java class</b> to handle input/output in CSV file using given methods.</li>
+              </ul>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <br />
+      <div className="education">
+        <h1 className="h1-heading">Education <img src={educationIcon} /></h1>
+        <div className="left-line">
+          <ul>
+            <li><b>B. Tech</b> in <b>computer science and engineering</b> (2019 – 2023) 
+              <p><b>Government college of engineering, Aurangabad (CGPA = 8.1)</b></p></li>
+            <li>High school education in science (2017 – 2019) 
+              <p>Kulbhushan Junior College, Aurangabad. <b>(MHT-CET percentile = 96.96%)</b></p></li>
+            <li>School education 
+              <p>in Pioneers secondary school with <b>10th percentage of 90.8%</b>.</p></li>
+          </ul>
+        </div>
+      </div>
 
       <div className="achievements">
-        <h4 className="ach-h">ACHIEVEMENTS AND FAVOURITE ACTIVITIES</h4>
-        I like to create logics, solve problems. That is why I like to do backent programming. My favourite activities include learning new things. From this I like to learn topcs related to the mental and physical limits of the man or some inspiring stories of great persons. As a art I like to draw paintings.
-        <p>I qualified GATE exam in first attempt in my third year. I have 3 stars in <a target="_blank" href="https://www.codechef.com/users/triple_123">codechef</a> and 5 stars in <a target="_blank" href="https://www.hackerrank.com/Varad_Kulkarni">hackerrank</a> in JAVA and 4 stars in MYSQL.</p>
+        <h1 className="h1-heading">Achievements <img src={achievementsIcon} /></h1>
+        <div className="left-line">
+          <ul>
+            <li>Had <b>1600+ contest rating</b> on leetcode. (<a href="https://leetcode.com/u/Varad_Kulkarni3/">leetcode profile</a>)</li>
+            <li>Handled leader works as mini project and main project group leader</li>
+            <li>Have 5 stars in JAVA and 4 stars in MYSQL in hackerrank. (<a href="https://www.hackerrank.com/profile/Varad_Kulkarni">hackerrank profile</a>)</li>
+            <li>Solved 29+ contests on codechef and have reached 3 stars on codechef. (<a href='https://www.codechef.com/users/triple_123' >codechef profile</a>)</li>
+            <li>I have qualified GATE exam in first attempt in 3rd year</li>
+          </ul>
+        </div>
       </div>
-
-      <div className="fav-subs">
-        <h4>FAVOURITE SUBJECTS</h4>
-        <li>Object Oriented Programming</li>
-        <li>Data Structures</li>
-        <li>Database Management System</li>
-        <li>Operrating System</li>
-      </div>
-
-      <div className="skills">
-        <h4>SKILLS</h4>
-        <li>JAVA</li>
-        <li>Problem Solving</li>
-        <li>Data Structures</li>
-        <li>Mathematics</li>
-      </div>
-
-      <div className="certification"></div>
-
     </div>
   )
 }

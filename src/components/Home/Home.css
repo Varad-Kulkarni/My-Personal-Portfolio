@@ -1,67 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 
 .home{
-    background-image: linear-gradient(rgb(0, 200, 255), blueviolet);
     width: 100vw;
-    height: 70vh;
-}
-
-.p-container{
-    text-align: center;
-    font-size: 60px;
-    font-family: 'Josefin Sans', sans-serif;
-    color: rgb(242, 223, 59);
-    text-shadow: 2px 2px #ff0000;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .home-container{
-    padding-top: 50px;
+    padding-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+    color: blueviolet;
 }
 
-#p1:hover, #p2:hover, #p3:hover, #p4:hover, #p5:hover, #p6:hover, #p7:hover, #p8:hover, #p9:hover{
-    color: red;
+.img-container {
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    box-shadow: none;
+    width: 500px;
+    height: auto;
 }
 
-.img-container{
-    width: 100vw;
-    height: 40vh;
+.img-container:hover {
     box-shadow: none;
 }
 
-img:hover{
+img {
+    box-shadow: none;
+}
+
+img:hover {
     box-shadow: none;
 }
 
 @media (max-width: 1200px) {
-    .home{
-        background-image: linear-gradient(rgb(0, 200, 255), blueviolet);
-        width: 100vw;
-        height: 70vh;
-    }
-    
-    .p-container{
-        text-align: center;
-        font-size: 30px;
-        font-family: 'Josefin Sans', sans-serif;
-        color: rgb(242, 223, 59);
-        text-shadow: 2px 2px #ff0000;
-    }
-    
-    .home-container{
-        padding-top: 50px;
-    }
-    
-    #p1:hover, #p2:hover, #p3:hover, #p4:hover, #p5:hover, #p6:hover, #p7:hover, #p8:hover, #p9:hover{
-        color: red;
-    }
-    
-    .img-container{
-        width: 100vw;
-        height: 40vh;
-        box-shadow: none;
-    }
-    
-    img:hover{
-        box-shadow: none;
-    }
+}
+
+.home-text {
+    text-shadow: 2px 2px 5px blueviolet;
 }

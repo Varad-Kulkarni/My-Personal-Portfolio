@@ -1,32 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
-.projects{
-    /* padding: 5px; */
+.projects {
     margin: 6px;
-    /* background-color: rgb(87, 87, 87); */
 }
 
-/* ========================================================================================================= */
-
-/* p {
-    margin-top: 0;
-    margin-bottom: 1rem;
-    margin: 20px;
-}
-
-.card-header:first-child {
-    border-radius: calc(.25rem - 1px) calc(.25rem - 1px) 0 0;
-    border-color: aquamarine;
-}
-
-.card-title {
-    margin-bottom: .5rem;
-    color: aquamarine;
-} */
-
-/* ========================================================================================================= */
-
-h3{
+.h3-project-title {
     font-weight: bolder;
     border-bottom: solid 2px;
     border-color: rgb(139, 135, 255);
@@ -94,13 +72,6 @@ h3{
     font-family: 'Varela Round', 'sans-serif';
     background-color: aliceblue;
 }
-
-/* img {
-    width: 100%;
-    height: auto;
-    margin-left: 30px;
-    margin-right: 30px;
-} */
 
 img {
     max-width: 100%;
