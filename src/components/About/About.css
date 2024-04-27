@@ -7,3 +7,16 @@
     margin-left: 15px;
     border-left: 3px solid blueviolet;
 }
+
+.siemens-name {
+    color: rgb(0, 153, 153);
+}
+.pratiti-name {
+    color: rgba(0, 85, 183, 0.68);
+}
+.shardings-name {
+    color: rgb(0, 123, 255);
+}
+.vderive-name {
+    color: rgb(188, 169, 115);
+}
